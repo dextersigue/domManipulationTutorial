@@ -44,10 +44,6 @@ header{
     margin: 5px auto 0 auto;
 }
 
-.hide-list{
-    margin-left: 200px;
-}
-
 .list{
     margin-top: 30px;
 }
@@ -77,22 +73,23 @@ header{
     padding: 60px 0;
 }
 
-#hide-list{
+.hide-list{
     margin: 20px;
+    margin-left: 200px;
 }
 
-#hide-list label{
+.hide-list label{
     padding: 5px 10px;
     margin: 10px;
     border-bottom: 1px solid #777;
     user-select: none;
 }
 
-#hide-list:hover{
+.hide-list:hover{
     background: #efefef;
 }
 
-#hide-list input[type="checkbox"]{
+.hide-list input[type="checkbox"]{
     display: none;
 }
 
